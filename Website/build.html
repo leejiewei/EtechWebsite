@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="/build.js"></script>
+</head>
+
+<body style="background-color: rgb(252, 252, 252);">
+    <div class="navbar" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="logo">
+            <a href="/main.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ie5pwKCUdXYFBsK8UtLXKbMmz-6_pIB6YumIVHmSzRPGZaYT3dXjzHu0BK3Q8UmDxf8&usqp=CAU"
+                    height="80rem" alt="">
+            </a>
+        </div>
+        <div class="build">
+            <h1>Etech Computer Accessories Sdn Bhd</h1>
+        </div>
+        <div class="cart">
+            <a href="#">
+                <i class="bi bi-motherboard" style="font-size: 3em; color: black;"></i>
+            </a>
+           
+        </div>
+    </div>
+    <table class="table table-bordered" style="width: 90%; margin: auto;">
+        <tr>
+
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        <tr class="tablerow">
+            <td>
+                <select class="product" name="product[]">
+                    <option>01. INTEL Processor -- Total 18 Products (click to select)</option>
+                    <optgroup label="INTEL 10TH GEN">
+                        <option data-price="399" value="0">INTEL CORE I3-10105F-RM399</option>
+                        <option data-price="579" value="1">INTEL CORE I5-10400F-RM579</option>
+                        </optgroup>
+                   <optgroup label="INTEL 11TH GEN">
+                  <option data-price="889" value="0">INTEL CORE I5-11500 -RM899</option>
+                    <option data-price="1499" value="0">INTEL CORE I7-11700-RM399</option>
+                    <option data-price="1499" value="0">INTEL CORE I7-11700k-RM1499</option>
+                   </optgroup>
+                   <optgroup label="INTEL 12TH GEN"></optgroup>
+                   <optgroup label="INTEL I3">
+                     <option data-price="509" value="0">INTEL CORE I3 12100F-RM509</option>
+                     <option data-price="689" value="0">INTEL CORE I3 12100 -RM689</option>
+                    </optgroup>
+                    <optgroup label="INTEL I5">
+                     <option data-price="889" value="0">INTEL CORE I5 12400F- RM889</option>
+                        <option data-price="949" value="0">INTEL CORE I5 12400-RM949</option>
+                        <option data-price="1029" value="0">INTEL CORE I5 12500-RM1029</option>
+                        <option data-price="1239" value="0">INTEL CORE I5 12600-RM1239</option>
+                        <option data-price="1359" value="6">INTEL CORE I5 12600KF-RM1359</option>
+                        <option data-price="1429" value="7">INTEL CORE I5 12600K-RM1429</option>
+                    </optgroup>
+                    <optgroup label="INTEL I7">
+                        <option data-price="1749" value="0">INTEL CORE I7 12700- RM1749</option>
+                    </optgroup>   
+                    <optgroup label="Intel I9">
+                        <option data-price="2800" value="14">INTEL CORE I9 12900K-RM2800</option>
+                    </optgroup>
+                    <optgroup label=""></optgroup>
+                    <optgroup label="INTEL 13TH GEN">
+                       <option data-price="1949" value="17">INTEL CORE I7 13700KF-RM1949</option>
+                        <option data-price="2099" value="18">INTEL CORE I7 13700K-RM2099</option>
+                        <option data-price="2899" value="20">INTEL CORE I9 13900K- RM2899</option>
+                    </optgroup>
+                    <optgroup label=""></optgroup>
+                    <optgroup label=""></optgroup>
+                </select>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr class="tablerow">
+            <td>
+                <select class="product" name="product[]">
+                    <option>02. AMD Processor -- Total 14 Products (click to select)</option>
+                    <optgroup label="AMD 5000 series"></optgroup>
+                     <optgroup label="AMD Ryzen 5">
+                        <option data-price="699" value="0">Amd Ryzen 5 5500 -RM699</option>
+                        <option data-price="1029" value="0">Amd Ryzen 5 5600X -RM1029</option>
+                        <option data-price="909" value="0">Amd Ryzen 5 5600 -RM909</option>
+                        <option data-price="800" value="0">Amd Ryzen 5 5600G -RM800</option>
+                    </optgroup>
+                    <optgroup label="AMD Ryzen 7">
+                        <option data-price="1199" value="0">Amd Ryzen 7 5700X -RM1149</option>
+                        <option data-price="1349" value="0">Amd Ryzen 7 5700G -RM1349</option>
+                        <option data-price="1369" value="0">Amd Ryzen 7 5800X -RM1369</option>
+                        <option data-price="1849" value="0">Amd Ryzen 7 5800X3D -RM1849</option>
+                     </optgroup>
+                     <optgroup label="AMD Ryzen 9">
+                        <option data-price="1969" value="0">Amd Ryzen 9 5900X -RM1969</option>
+                        <option data-price="2669" value="0">Amd Ryzen 9 5950X -RM2669</option>
+                     </optgroup>
+                    <optgroup label=""></optgroup>
+                    <optgroup label="AMD 7000 series">
+                        <option data-price="1399" value="0">Amd Ryzen 5 7600X -RM1399</option>
+                        <option data-price="1899" value="0">Amd Ryzen 7 7700X -RM1899</option>
+                        <option data-price="2699" value="0">Amd Ryzen 9 7900X -RM2699</option>
+                        <option data-price="3399" value="0">Amd Ryzen 9 7950X -RM3399</option>
+                    </optgroup>
+                   <optgroup label=""></optgroup>
+                    <optgroup label=""></optgroup>
+                </select>
+                
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </tr>
+    <tr class="tablerow">
+        <td>
+            <select class="product" name="product[]">
+                <option>03. INTEL Motherboard -- Total 11 Products (click to select)</option>
+                <optgroup label="Asus"></optgroup>
+                <optgroup label="H Series">
+                    <option data-price="409" value="0">Asus Prime H510M-E-RM409</option>
+                    <option data-price="469" value="0">Asus Prime H610M-E D4-RM469</option>
+                </optgroup>
+                <optgroup label="B Series">
+                    <option data-price="809" value="0">Asus Prime B660M-A WIFI D4-RM809</option>
+                    <option data-price="969" value="0">ROG Strix B560-A Gaming Wifi-RM969</option>
+                    <option data-price="1149" value="0">ROG Strix B660-A Gaming Wifi D4-RM1149</option>
+                    <option data-price="1189" value="0">ROG Strix B660-I Gaming Wifi-RM1189</option>
+                </optgroup>
+                <optgroup label="Z series">
+                    <option data-price="3399" value="0">Asus ROG Maximus Z790-RM3399</option>
+                    <option data-price="1999" value="0">ASUS ROG STRIX Z790-A GAMING WIFI D4-RM 1999</option>
+                    <option data-price="1529" value="0">ASUS TUF GAMING Z790-PLUS WIFI D4-RM 1529</option>
+                    <option data-price="1339" value="0">ASUS PRIME Z790-P WIFI CSM-RM 1339</option>
+                </optgroup>
+                 <optgroup label="Asrock">
+                    <option data-price="589" value="0">Asrock B660M Pro RS-RM589</option>
+                 </optgroup>
+               </select>
+        </td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tablerow">
+        <td>
+            <select class="product" name="product[]">
+                <option>04. AMD Motherboard -- Total 7 Products (click to select)</option>
+                <optgroup label="Asus"></optgroup>
+                <optgroup label="B Series">
+                    <option data-price="1649" value="0">ROG Strix B650E-1 Gaming-RM1649</option>
+                    <option data-price="1259" value="0">TUF Gaming B650-Plus-RM1259</option>
+                    <option data-price="1159" value="0">TUF Gaming B650M-Plus Wifi-RM1159</option>
+                    <option data-price="1069" value="0">ROG Strix B550-I Gaming-RM1069</option>
+                </optgroup>
+                <optgroup label="X Series">
+                    <option data-price="3349" value="0">ROG Crosshair X670E Hero-RM3349</option>
+                    <option data-price="2649" value="0">ROG Strix X670E-E Gaming Wifi-RM2649</option>
+                    <option data-price="1760" value="0">TUF Gaming X670E-Plus Wifi-RM1760</option>
+                    <option data-price="1069" value="0">ROG Strix B550-I Gaming-RM1069</option>
+                 </optgroup>
+            </select>
+        </td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tablerow">
+        <td>
+            <select class="product" name="product[]">
+                <option>05.RAM-- Total 10 Products (click to select)</option>
+                <optgroup label="KINGSTON">
+                    <option data-price="429" value="0">Kingston Fury Beast 16GB 5200MHZ DDR5-RM429</option>
+                    <option data-price="499" value="0">Kingston Fury Beast 16GB 5600MHZ DDR5-RM499</option>
+                    <option data-price="599" value="0">Kingston Fury Beast 16GB 6000MHZ DDR5-RM-599</option>
+                    <option data-price="459" value="0">Kingston Fury Beast RGB 16GB 5200MHZ DDR5-RM459</option>
+                    <option data-price="529" value="0">Kingston Fury Beast RGB 16GB 5600MHZ DDR5-RM529</option>
+                    <option data-price="629" value="0">Kingston Fury Beast RGB 16GB 6000MHZ DDR5-RM629</option>
+                    <option data-price="159" value="0">Kingston Fury Beast 8GB 3200MHZ DDR4-RM159</option>
+                    <option data-price="319" value="0">Kingston Fury Beast 16GB 3200MHZ DDR4-RM319</option>
+                    <option data-price="179" value="0">Kingston Fury Beast RGB 8GB 3200MHZ DDR4-RM179</option>
+                    <option data-price="349" value="0">Kingston Fury Beast RGB 16GB 3200MHZ DDR4-RM349</option>
+                    </optgroup>
+            </select>
+        </td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tablerow">
+        <td>
+            <select class="product" name="product[]">
+                <option>06.Graphic Card-- Total 12 Products (click to select)</option>
+                <optgroup label="Zotac">
+                    <option data-price="799" value="0">Zotac Gaming GTX1650 AMP Core 4GB GDDR6-RM799</option>
+                    <option data-price="1269" value="0">Zotac Gaming RTX2060 Super 8GB-RM1269</option>
+                    <option data-price="1399" value="0">Zotac Gaming RTX3050 AMP 8GB OC Twin Edge-RM1399</option>
+                    <option data-price="1429" value="0">Zotac Gaming RTX3050 8GB AMP-RM1429</option>
+                    <option data-price="1649" value="0">Zotac Gaming RTX3060 12GB Twin Edge OC-RM1649</option>
+                    <option data-price="1799" value="0">Zotac Gaming RTX3060 12GB AMP White-RM1799</option>
+                    <option data-price="2099" value="0">Zotac Gaming RTX3060TI 8GB Twin Edge-RM2099</option>
+                    </optgroup>
+                    <optgroup label="ROG">
+                        <option data-price="2049" value="0">Asus ROG Strix RTX3060 12GB OC-RM2049</option>
+                        <option data-price="10199" value="0">Asus ROG Strix RTX4090 24GB -RM10199</option>
+                    </optgroup>
+                     <optgroup label="EVGA and GALAX">
+                        <option data-price="1359" value="0">EVGA Nvidia RTX3050 XC Gaming 8GB-RM1359</option>
+                        <option data-price="2249" value="0">GALAX RTX3070 1-click OC 8GB-RM2249</option>
+                        <option data-price="2399" value="0">GALAX RTX3070Ti 1-click OC 8GB-RM2399</option>
+                     </optgroup>
+            </select>
+        </td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tablerow">
+        <td>
+            <select class="product" name="product[]">
+                <option>07.SSD-- Total 19 Products (click to select)</option>
+                <optgroup label="Samsung">
+                    <option data-price="299" value="0">Samsung 870 EVO 500GB-RM299</option>
+                    <option data-price="549" value="0">Samsung 870 EVO 1TB-RM549</option>
+                    <option data-price="249" value="0">Samsung 980 250GB-RM249</option>
+                    <option data-price="349" value="0">Samsung 980 500GB-RM349</option>
+                    <option data-price="649" value="0">Samsung 980 1TB-RM649</option>
+                </optgroup>
+                <optgroup label="HP">
+                    <option data-price="319" value="0">HP SSD S700 M.2 500GB-RM319</option>
+                </optgroup>
+                <optgroup label="WD">
+                    <option data-price="129" value="0">WD Green Sata SSD 240GB-RM129</option>
+                </optgroup>
+                    <optgroup label="Crucial">
+                        <option data-price="259" value="0">Crucial MX500 500GB-RM259</option>
+                        <option data-price="179" value="0">Crucial M.2 P2 250GB-RM179</option>
+                        <option data-price="259" value="0">Crucial M.2 P2 500GB-RM259</option>
+                        <option data-price="459" value="0">Crucial M.2 P2 1TB-RM459</option>
+                    </optgroup>
+                    <optgroup label="Kingston">
+                        <option data-price="129" value="0">Kingston A400 sata 240GB-RM129</option>
+                        <option data-price="209" value="0">Kingston A400 sata 480GB-RM209</option>
+                        <option data-price="960" value="0">Kingston A400 sata 960GB-RM339</option>
+                        <option data-price="409" value="0">Kingston KC3000 512GB-RM409</option>
+                        <option data-price="580" value="0">Kingston KC3000 1024GB-RM580</option>
+                        <option data-price="1029" value="0">Kingston KC3000 2048GB-RM1029</option>
+                    </optgroup>
+                    <optgroup label="Scandisk">
+                        <option data-price="169" value="0">Scandisk SSD sata 240GB-RM169</option>
+                        <option data-price="429" value="0">Scandisk SSD sata 1TB-RM429</option>
+                    </optgroup>
+
+                    
+            </select>
+        </td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tablerow">
+        <td>
+            <select class="product" name="product[]">
+                <option>08.Power Supply-- Total 17 Products (click to select)</option>
+                <optgroup label="Corsair">
+                    <option data-price="259" value="0">Corsair CV550-RM259</option>
+                    <option data-price="279" value="0">Corsair CV650-RM279</option>
+                    <option data-price="319" value="0">Corsair CV750-RM319</option>
+                    <option data-price="589" value="0">Corsair RM750 Black-RM589</option>
+                    <option data-price="609" value="0">Corsair RM750 White-RM609</option>
+                    <option data-price="789" value="0">Corsair SF750-RM789</option>
+                    <option data-price="879" value="0">Corsair HX850-RM879</option>
+                    <option data-price="1019" value="0">Corsair RM1000X-RM1019</option>
+                    <option data-price="1199" value="0">Corsair HX1200-1199</option>
+                    </optgroup>
+                    <optgroup label="Coolermaster">
+                        <option data-price="159" value="0">Coolermaster Elite P500-RM159</option>
+                        <option data-price="199" value="0">Coolermaster Elite P600-RM199</option>
+                        <option data-price="789" value="0">Coolermaster V850 SFX-RM789</option>
+                        <option data-price="789" value="0">Coolermaster V850 SFX-RM789</option>
+                    </optgroup>
+                    <optgroup label="Thermaltake">
+                        <option data-price="169" value="0">Thermaltake 550w-RM169</option>
+                    </optgroup>
+                    <optgroup label="NZXT">
+                        <option data-price="609" value="0">NZXT C850 Gold-RM609</option>
+                    </optgroup>
+                    <optgroup label="ROG">
+                        <option data-price="1899" value="0">ROG Thor 1200W-RM1899</option>
+                        <option data-price="789" value="0">ROG Strix 750W-RM789</option>
+                    </optgroup>
+            </select>
+        </td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</tr>
+<tr class="tablerow">
+    <td>
+        <select class="product" name="product[]">
+            <option>09.CPU Cooler-- Total 10 Products (click to select)</option>
+            <optgroup label="Techware">
+                <option data-price="239" value="0">Techware Mirage 120-RM239</option> 
+                <option data-price="379" value="0">Techware Mirage 360 Black-RM379</option>
+                <option data-price="369" value="0">Techware Mirage 360 White-RM369</option>
+                <option data-price="269" value="0">Techware Mirage 240-RM269</option>
+                </optgroup>
+                <optgroup label="ID-Cooling">
+                    <option data-price="399" value="0">ID-Cooling PinkFlow 240 Diamond Edition-RM399</option>
+                    <option data-price="349" value="0">ID-Cooling ZoomFlow 240 240XT-RM349</option>
+                    <option data-price="299" value="0">ID-Cooling FrostFlow Snow Edition-RM299</option>
+                </optgroup>
+                <optgroup label="ROG and TUF">
+                    <option data-price="469" value="0">TUF Gaming Liquid CPU Cooler LC240-RM469</option>
+                    <option data-price="1599" value="0">ROG RyuujinII 360 ARGB-RM1599</option>
+                </optgroup>
+                <optgroup label="Coolermaster">
+                    <option data-price="529" value="0">Coolermaster Master Liquid ML360L VL-RM529</option>
+                </optgroup>
+        </select>
+    </td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td> 
+</tr>
+<tr class="tablerow">
+    <td>
+        <select class="product" name="product[]">
+            <option>10.Casing-- Total 14 Products (click to select)</option>
+            <optgroup label="Techware">
+                <option data-price="249" value="0">Techware VXC TG Black(No Fans Include)-RM249</option>
+                <option data-price="179" value="0">Techware Flatline TG Black(4 Fans Include)-RM179</option>
+                <option data-price="189" value="0">Techware Flatline TG White(4 Fans Include)-RM189</option>
+                <option data-price="275" value="0">Techware Quad White/Black Mini(2 Fans Include)-RM275</option>
+                </optgroup>
+                <optgroup label="Montech">
+                    <option data-price="249" value="0">Montech Air 100 TG White/Black(4 ARGB Fans Include)-RM249</option>
+                    <option data-price="309" value="0">Montech Air 1000 TG White/Black(4 ARGB Fans Include)-RM309</option>
+                    <option data-price="249" value="0">Montech Skyone Mini TG White/Black(3 Fans Include)-RM249</option>
+                </optgroup>
+                <optgroup label="Lian Li">
+                    <option data-price="469" value="0">Lian Li PC-011 Dynamic Mini(No Fans Include)-RM469</option>
+                    <option data-price="569" value="0">Lian Li PC-011 Dynamic(No Fans Include)-RM569</option>
+                    <option data-price="749" value="0">Lian Li PC-011 Dynamic EVO(No Fans Include)-RM749</option>
+                    <option data-price="779" value="0">Lian Li PC-011 Dynamic Razer Edition(No Fans Include)-RM779</option>
+                </optgroup>
+                <optgroup label="Coolermaster">
+                    <option data-price="379" value="0">CM TD500 Mesh Air White/Black(3 ARGB Fans Include)-RM379</option>
+                </optgroup>
+                <optgroup label="Corsair">
+                    <option data-price="369" value="0">Corsair 4000D AirFlow White/Black(2 Fans Include)-RM369</option>
+                </optgroup>
+                <optgroup label="ROG">
+                    <option data-price="1399" value="0">ROG Strix Helios White-RM1399 </option>
+                </optgroup>
+
+
+        </select>
+    </td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+</tr>
+</tr>
+<tr class="tablerow">
+    <td>
+        <select class="product" name="product[]">
+            <option>11.Assembly and Window-- Total 8 Products (click to select)</option>
+            <optgroup label="Window">
+                <option data-price="80" value="0">Assembly and window 10 trial-RM80</option>
+                <option data-price="80" value="0">Assembly and window 11 trial-RM80</option>
+                <option data-price="80" value="0">Assembly and window 10 pro trial-RM80</option>
+                <option data-price="80" value="0">Assembly and window 11 pro trial-RM80</option>
+                <option data-price="579" value="0">Assembly and window 10 Home-RM579</option>
+                <option data-price="579" value="0">Assembly and window 11 Home-RM579</option>
+                <option data-price="679" value="0">Assembly and window 10 Pro-RM679</option>
+                <option data-price="679" value="0">Assembly and window 11 pro-RM679</option>
+                </optgroup>
+        </select>
+    </td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+</tr>
+</tr>
+<tr class="tablerow">
+    <td>
+        <select class="product" name="product[]">
+            <option>12.Promocode-- Total 2 Products (click to select)</option>
+                <option data-price="-21" value="0">Premium Seve.30-RM79</option>
+                <option data-price="-21" value="0">Tp Link Archer T4U-RM79</option>
+                
+        </select>
+    </td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+</tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="total-price">RM0</td>
+        </tr>
+    </table>
+   
+</body>
+
+</html>
